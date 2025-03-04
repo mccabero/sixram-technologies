@@ -1,0 +1,38 @@
+﻿@using MudBlazor
+<MudMessageBox @ref="MBoxConfirmation" Title="Confirmation" CancelText="No">
+    <MessageContent>
+        <i class="bi bi-exclamation-triangle"></i> Are you sure you want to save changes?
+    </MessageContent>
+    <YesButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" StartIcon="@Icons.Material.Filled.Check">Yes</MudButton>
+    </YesButton>
+</MudMessageBox>
+
+<MudMessageBox @ref="MBoxCustom" Title="Confirmation" CancelText="No">
+    <MessageContent>
+        <i class="bi bi-exclamation-triangle"></i> @CustomMessage
+    </MessageContent>
+    <YesButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" StartIcon="@Icons.Material.Filled.Check">Yes</MudButton>
+    </YesButton>
+</MudMessageBox>
+
+<MudMessageBox @ref="MBoxError" Title="Warning!">
+    <MessageContent>
+        <i class="bi bi-exclamation-triangle"></i> @CustomMessage
+    </MessageContent>
+    <YesButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Error" StartIcon="@Icons.Material.Filled.Check">OK</MudButton>
+    </YesButton>
+</MudMessageBox>
+
+@code {
+    [Parameter]
+    public MudMessageBox MBoxConfirmation { get; set; }
+    [Parameter]
+    public MudMessageBox MBoxCustom { get; set; }
+    [Parameter]
+    public MudMessageBox MBoxError { get; set; }
+    [Parameter]
+    public string CustomMessage { get; set; }
+}

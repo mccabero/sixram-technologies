@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PEZA.eLOA.API</name>
+    </assembly>
+    <members>
+        <member name="T:PEZA.eLOA.API.Constants.ApiErrorCode">
+            <summary>
+            Contant values for different API Error
+            </summary>
+        </member>
+        <member name="T:PEZA.eLOA.API.Controllers.CompanyController">
+            <summary>
+            Controller API for company
+            </summary>
+        </member>
+        <member name="M:PEZA.eLOA.API.Controllers.EloaController.GetLoaNumberAvailability(PEZA.eLOA.Models.Response.LoaNumberAvailabilityRequestModel)">
+            <summary>
+            Verify if the LOA number is available for use.
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PEZA.eLOA.API.Controllers.EloaController.UpdateEloaApplicationStatus(System.Guid,PEZA.eLOA.Models.Request.EloaApplicationStatusModelRequest)">
+            <summary>
+            Update Eloa status and assignment based on the provided status.
+            </summary>
+            <returns>Returns updated eLoa application form.</returns>
+        </member>
+        <member name="M:PEZA.eLOA.API.Controllers.EloaController.GetEloaByPage(System.String,System.Int32)">
+            <summary>
+            Get Eloa based on specific page. PEZA Users Page.
+            </summary>
+            <param name="pageType">Parameter: SCREENING, PAYMENT_VERIFICATION, EVALUATION, REVIEW, APPROVAL</param>
+            <returns>Eloa Response Model.</returns>
+        </member>
+        <member name="M:PEZA.eLOA.API.Controllers.EloaController.GetEloaByZoneUnitStatus(PEZA.eLOA.Models.Request.EloaByZoneUnitStatusRequestModel)">
+            <summary>
+            Get Eloa based on Zone, Unit and PageType.
+            </summary>
+            <param name="model">Parameter (pageType): SCREENING, PAYMENT_VERIFICATION, EVALUATION, REVIEW, APPROVAL</param>
+            <returns>Eloa Response Model.</returns>
+        </member>
+        <member name="M:PEZA.eLOA.API.Controllers.EloaController.GetPendingEloaApplications">
+            <summary>
+            Get pending LOA applications.
+            </summary>
+        </member>
+        <member name="M:PEZA.eLOA.API.Controllers.EloaController.GetEloaByCompanyAndStatus(System.Guid,System.Nullable{System.Int32},System.Nullable{System.Boolean})">
+            <summary>
+            Get Eloa based on company. Company Users Page.
+            </summary>
+            <param name="companyId">Parameter: CompanyId</param>
+            <param name="status">Int Value Page Type</param>
+            <param name="isAmendableExtendableRenewable">Boolean Value</param>
+            <returns></returns>
+        </member>
+        <member name="M:PEZA.eLOA.API.Controllers.EloaController.GetEloaByCompanyPendingApplications">
+            <summary>
+            Get pending LOA applications by company.
+            </summary>
+        </member>
+        <member name="T:PEZA.eLOA.API.UserController">
+            <summary>
+            Controller for CompanyUser endpoint
+            </summary>
+            <summary>
+            Controller for PezaUser endpoint
+            </summary>
+        </member>
+        <member name="T:PEZA.eLOA.API.Profile.ZoneProfile">
+            <summary>
+            Profile in converting to ZoneModelResponse
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,21 @@
+﻿@using MudBlazor
+@inherits LayoutComponentBase
+
+<div class="wrapper">
+
+    @* Required *@
+    <MudThemeProvider />
+    <MudPopoverProvider />
+
+    @* Needed for dialogs *@
+    <MudDialogProvider />
+
+    @* Needed for snackbars *@
+    <MudSnackbarProvider />
+
+    <div class="hold-transition login-page">
+        @Body
+    </div>
+
+    <FooterMenu />
+</div>

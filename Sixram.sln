@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixram.Services", "Sixram.Services\Sixram.Services.csproj", "{3BF11EB6-6E2C-49CA-B5D6-B5E5AC88BAA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixram.Repositories", "Sixram.Repositories\Sixram.Repositories.csproj", "{7304CC20-18C8-428F-BA77-172F3414F7E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixram.Entities", "Sixram.Entities\Sixram.Entities.csproj", "{65ECC463-F5A8-4114-84BE-7B6A62AE183B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixram.DTO", "Sixram.DTO\Sixram.DTO.csproj", "{A4CC4A21-1E55-4091-AF23-C2CE8C583254}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixram.Contracts", "Sixram.Contracts\Sixram.Contracts.csproj", "{E9C90980-5E49-41E6-B98B-FAE1708A26A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixram.Common", "Sixram.Common\Sixram.Common.csproj", "{B2A07F5E-66F6-4986-804E-FB4DE444D326}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{593FE078-BDDC-4F71-9457-ACD4FE801F22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{A2FB1EA6-9811-446F-94EC-8E2223B8C283}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{724DA0F5-22F4-423D-9B9A-04A1A69DCB1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixram.Web.Api", "Api\Sixram.Web.Api\Sixram.Web.Api.csproj", "{89041242-0889-44D5-A5FC-FCE251FA1F14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixram.Console.POC", "Console\Sixram.Console.POC\Sixram.Console.POC.csproj", "{D16C0710-2C6C-4705-AABD-66EF9D4C09C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixram.Web", "Client\Sixram.Web\Sixram.Web.csproj", "{ACFDC147-784B-49AA-8470-C29C007E2A82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sixram.Models", "Sixram.Models\Sixram.Models.csproj", "{B6DA605A-D4F1-46E1-9076-D984AAED06F1}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Sixram.Database", "Sixram.Database\Sixram.Database.sqlproj", "{A7E17500-58BB-4362-91AA-4707E7307882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BF11EB6-6E2C-49CA-B5D6-B5E5AC88BAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF11EB6-6E2C-49CA-B5D6-B5E5AC88BAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF11EB6-6E2C-49CA-B5D6-B5E5AC88BAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF11EB6-6E2C-49CA-B5D6-B5E5AC88BAA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7304CC20-18C8-428F-BA77-172F3414F7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7304CC20-18C8-428F-BA77-172F3414F7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7304CC20-18C8-428F-BA77-172F3414F7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7304CC20-18C8-428F-BA77-172F3414F7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65ECC463-F5A8-4114-84BE-7B6A62AE183B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ECC463-F5A8-4114-84BE-7B6A62AE183B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ECC463-F5A8-4114-84BE-7B6A62AE183B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ECC463-F5A8-4114-84BE-7B6A62AE183B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CC4A21-1E55-4091-AF23-C2CE8C583254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CC4A21-1E55-4091-AF23-C2CE8C583254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CC4A21-1E55-4091-AF23-C2CE8C583254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CC4A21-1E55-4091-AF23-C2CE8C583254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C90980-5E49-41E6-B98B-FAE1708A26A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C90980-5E49-41E6-B98B-FAE1708A26A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C90980-5E49-41E6-B98B-FAE1708A26A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C90980-5E49-41E6-B98B-FAE1708A26A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A07F5E-66F6-4986-804E-FB4DE444D326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A07F5E-66F6-4986-804E-FB4DE444D326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A07F5E-66F6-4986-804E-FB4DE444D326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A07F5E-66F6-4986-804E-FB4DE444D326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89041242-0889-44D5-A5FC-FCE251FA1F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89041242-0889-44D5-A5FC-FCE251FA1F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89041242-0889-44D5-A5FC-FCE251FA1F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89041242-0889-44D5-A5FC-FCE251FA1F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16C0710-2C6C-4705-AABD-66EF9D4C09C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16C0710-2C6C-4705-AABD-66EF9D4C09C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16C0710-2C6C-4705-AABD-66EF9D4C09C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16C0710-2C6C-4705-AABD-66EF9D4C09C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACFDC147-784B-49AA-8470-C29C007E2A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFDC147-784B-49AA-8470-C29C007E2A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFDC147-784B-49AA-8470-C29C007E2A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFDC147-784B-49AA-8470-C29C007E2A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DA605A-D4F1-46E1-9076-D984AAED06F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DA605A-D4F1-46E1-9076-D984AAED06F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DA605A-D4F1-46E1-9076-D984AAED06F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DA605A-D4F1-46E1-9076-D984AAED06F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E17500-58BB-4362-91AA-4707E7307882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E17500-58BB-4362-91AA-4707E7307882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E17500-58BB-4362-91AA-4707E7307882}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A7E17500-58BB-4362-91AA-4707E7307882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E17500-58BB-4362-91AA-4707E7307882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E17500-58BB-4362-91AA-4707E7307882}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89041242-0889-44D5-A5FC-FCE251FA1F14} = {724DA0F5-22F4-423D-9B9A-04A1A69DCB1C}
+		{D16C0710-2C6C-4705-AABD-66EF9D4C09C7} = {A2FB1EA6-9811-446F-94EC-8E2223B8C283}
+		{ACFDC147-784B-49AA-8470-C29C007E2A82} = {593FE078-BDDC-4F71-9457-ACD4FE801F22}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A911F352-5F47-465B-A843-AA436323E006}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sixram.Common\Sixram.Common.csproj" />
+    <ProjectReference Include="..\Sixram.Contracts\Sixram.Contracts.csproj" />
+    <ProjectReference Include="..\Sixram.Entities\Sixram.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿@using MudBlazor
+<link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
+
+<aside class="main-sidebar sidebar-light-primary elevation-2">
+    <a href="/" class="brand-link">
+        <img src="images/rapide-logo.png" style="max-width: 100%; height: auto;" />
+    </a>
+
+    <div class="sidebar">
+        <nav class="mt-2">
+            <MudNavMenu Class="mud-width-full">
+                <MudNavLink Href="/" Icon="@Icons.Material.Filled.Dashboard">Dashboard</MudNavLink>
+                <MudNavLink Href="/customers" Icon="@Icons.Material.Filled.Receipt">Customers</MudNavLink>
+                <MudNavLink Href="/vehicles" Icon="@Icons.Material.Filled.Storage">Vehicles</MudNavLink>
+                <MudNavGroup Title="Administrators" Icon="@Icons.Material.Filled.AdminPanelSettings">
+                    <MudNavLink Href="/administrators/company" Icon="@Icons.Material.Filled.Work" IconColor="Color.Info">Company Information</MudNavLink>
+                    <MudNavLink Href="/administrators/users" Icon="@Icons.Material.Filled.SupervisedUserCircle" IconColor="Color.Success">User Accounts</MudNavLink>
+                    <MudNavLink Href="/administrators/user-roles" Icon="@Icons.Material.Filled.VerifiedUser" IconColor="Color.Info">User Roles</MudNavLink>
+                </MudNavGroup>
+            </MudNavMenu>
+        </nav>
+    </div>
+</aside>
